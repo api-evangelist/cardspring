@@ -1,8 +1,26 @@
 aid: cardspring
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardspring.png
 name: CardSpring
-description: 'CardSpring is a company surfaced as a portfolio company of accel, dcvc and added to the
-  API Evangelist network as a stub for enrichment. Sector: payments. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'CardSpring was a card-linked offers and payments platform that provided an API for
+  building card-linked applications, letting developers connect merchant point-of-sale systems and
+  consumer payment cards to deliver digital coupons, loyalty rewards, and receipt-level offers. It was
+  surfaced as a portfolio company of Accel and DCVC and added to the API Evangelist network as a stub
+  for enrichment. The company was acquired by Twitter in 2014 and subsequently wound down; as of this
+  pass every path on cardspring.com (including the old /help/developer_faq.html) 307-redirects to an
+  Afternic "cardspring.com is for sale" domain-sale lander, developer.cardspring.com fails TLS with no
+  matching certificate, and no first-party CardSpring packages remain on npm or RubyGems. There is no
+  live developer portal, documentation, API, or OpenAPI surface to enrich. Sector: payments.'
 url: https://raw.githubusercontent.com/api-evangelist/cardspring/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Payments
+- Card Linking
+- Offers
+- Loyalty
+- Commerce
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: http://cardspring.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
